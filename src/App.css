@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 header {
   height: 100vh;
@@ -49,6 +50,18 @@ main {
 footer {
   height: 12vh;
   background: #6ab3a8;
+}
+footer p a {
+  text-decoration: none;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2.5vh;
 }
 #main {
   display: flex;

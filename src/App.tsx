@@ -29,7 +29,13 @@ function App() {
           </div>
         </main>
         <div id='contact'></div>
-        <footer></footer>
+        <footer>
+          <p>
+            Powered and developed by:{" "}
+            <a href='instagram.com/doteegoo'>ig: doteegoo </a>{" "}
+            <a href='https://github.com/dotegoo'> github: dotegoo </a>
+          </p>
+        </footer>
       </div>
     </>
   );
