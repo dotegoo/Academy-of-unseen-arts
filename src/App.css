@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff;
+}
+header {
+  height: 100vh;
+  background: #00000083;
+  background-image: url("/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+header nav {
+  display: flex;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  justify-content: space-between;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-left: 1vw;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 1vh;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header h1 {
+  font-size: 50px;
+  padding-top: 24%;
+  text-align: center;
+}
+main {
+  height: 100vh;
+  background: url(/main-bg.jpg) #00000083;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+#contact {
+  height: 88vh;
+  background: #985fba;
+}
+footer {
+  height: 12vh;
+  background: #6ab3a8;
+}
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main #baza,
+#main #avansat,
+#main #intermediar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #995fbae5;
+  height: 34vh;
+  width: 14vw;
+}
