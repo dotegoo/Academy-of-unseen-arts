@@ -10,21 +10,14 @@ body {
 body a {
   color: #fff;
 }
-#headerNav {
+
+header {
   height: 120vh;
   background: #00000083;
-  background-image: url("/header-bg.jpg");
+  background-image: url("/public/backgrounds/bg-1.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: color-burn;
-}
-#articleMain {
-  background: url(/main-bg.jpg) #00000083;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: color-burn;
-}
-header {
   height: 100vh;
 }
 header header nav ul li a {
@@ -37,6 +30,10 @@ header h1 {
 }
 main {
   height: 100vh;
+  background: url(/public/backgrounds/bg-2.jpeg) #00000083;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
 }
 #contact {
   height: 88vh;
@@ -56,10 +53,20 @@ footer p a {
   text-decoration: none;
 }
 nav {
-  height: 26vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #989898;
+  background: linear-gradient(
+    90deg,
+    #989898 10%,
+    #000000 43%,
+    #000000 57%,
+    #989898 90%
+  );
+  background-size: cover;
+  background-blend-mode: color-burn;
 }
 nav ul li {
   display: inline;
@@ -75,6 +82,7 @@ nav li a {
 }
 
 article {
+  background: #5f6dba;
   height: 75vh;
   display: flex;
   align-items: center;
@@ -83,8 +91,10 @@ article {
 }
 article p {
   font-size: 26px;
-  padding-top: 2vh;
-  width: 60vw;
+  padding-top: 3vh;
+  width: 50vw;
+  text-align: center;
+  padding-bottom: 3vh;
 }
 footer p {
   font-size: 18px;
