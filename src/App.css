@@ -30,7 +30,7 @@ header h1 {
 }
 main {
   height: 100vh;
-  background: url(/public/backgrounds/bg-2.jpeg) #00000083;
+  background: url(/public/backgrounds/bg-4.jpeg) #0000007a;
   background-position: center;
   background-size: cover;
   background-blend-mode: color-burn;
@@ -42,12 +42,9 @@ main {
   justify-content: space-evenly;
   text-align: center;
   flex-direction: column;
-
-  background: #985fba;
 }
 footer {
   height: 12vh;
-  background: #6ab3a8;
 }
 footer p a {
   text-decoration: none;
@@ -57,32 +54,30 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #989898;
-  background: linear-gradient(
-    90deg,
-    #989898 10%,
-    #000000 43%,
-    #000000 57%,
-    #989898 90%
-  );
+  background: url(/public/backgrounds/bg-2.png) #0000007a;
   background-size: cover;
+  background-position: center;
   background-blend-mode: color-burn;
 }
+
 nav ul li {
   display: inline;
   text-decoration: none;
-  font-size: 34px;
-  padding-top: 1vh;
+  font-size: 36px;
+  font-weight: 500;
   padding-left: 2vw;
   padding-right: 2vw;
 }
 nav li a {
   text-decoration: none;
   display: inline-flex;
+  color: #000;
 }
 
 article {
-  background: #5f6dba;
+  background: url("/public/backgrounds/bg-3.jpg") #0000007a center;
+  background-size: cover;
+  background-blend-mode: color-burn;
   height: 75vh;
   display: flex;
   align-items: center;
@@ -113,7 +108,7 @@ footer p {
 #baza,
 #avansat,
 #intermediar {
-  background: #000;
+  background: #0000004a;
   height: 20rem;
   width: 16rem;
   justify-content: center;
@@ -124,7 +119,7 @@ footer p {
 #baza:hover,
 #avansat:hover,
 #intermediar:hover {
-  background: #0000004a;
+  background: #000;
   transition: 1s;
   color: #fff;
 }
@@ -134,4 +129,12 @@ footer p {
   text-align: center;
   width: 40vw;
   padding-bottom: 5vh;
+}
+#contactFooter {
+  background-image: url("/public/backgrounds/bg-5.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-color: #0000007a;
 }
