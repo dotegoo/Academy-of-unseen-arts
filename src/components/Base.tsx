@@ -1,7 +1,8 @@
+import "../App.css";
 function Base() {
   return (
     <header>
-      <div></div>
+      <h1>Test</h1>
     </header>
   );
 }

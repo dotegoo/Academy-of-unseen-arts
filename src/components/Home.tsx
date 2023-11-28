@@ -39,12 +39,12 @@ const Home = () => {
             <h1>Base</h1>
           </div>
         </Link>
-        <Link to='/Intermediate'>
+        <Link to='/academy-of-unseen-arts/Intermediate'>
           <div id='intermediar'>
             <h1>Intermedate</h1>
           </div>
         </Link>
-        <Link to='/Andvanced'>
+        <Link to='/academy-of-unseen-arts/Advanced'>
           <div id='avansat'>
             <h1>Advanced</h1>
           </div>
