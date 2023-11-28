@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <header>
-        <h1>The Academy of unseen arts</h1>
-      </header>
       <nav>
         <ul>
           <li>
@@ -17,6 +14,10 @@ const Home = () => {
           </li>
         </ul>
       </nav>
+      <header>
+        <h1>The Academy of unseen arts</h1>
+      </header>
+
       <article>
         <p>This website is about arts, the unseen ones.</p>
         <p>

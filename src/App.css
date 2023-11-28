@@ -12,7 +12,6 @@ body a {
 }
 
 header {
-  height: 120vh;
   background: #00000083;
   background-image: url("/public/backgrounds/bg-1.jpg");
   background-position: center;
@@ -53,12 +52,14 @@ footer p a {
   text-decoration: none;
 }
 nav {
+  width: 100vw;
   height: 10vh;
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: center;
+  background: #00000083;
   align-items: center;
-  background: url(/public/backgrounds/bg-2.png) #0000007a;
+
   background-size: cover;
   background-position: center;
   background-blend-mode: color-burn;
@@ -75,7 +76,7 @@ nav ul li {
 nav li a {
   text-decoration: none;
   display: inline-flex;
-  color: #000;
+  color: #fff;
 }
 
 article {
