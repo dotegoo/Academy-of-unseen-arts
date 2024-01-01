@@ -7,9 +7,6 @@ function App() {
           <li>
             <a href='#main'>main</a>
           </li>
-          <li>
-            <a href='#contact'>contact</a>
-          </li>
         </ul>
       </nav>
       <header>
@@ -32,35 +29,29 @@ function App() {
         </p>
       </article>
       <main id='main'>
-        <div id='baza'>
-          <h1>Base</h1>
-        </div>
-        <div id='intermediar'>
-          <h1>Intermedate</h1>
-        </div>
-        <div id='avansat'>
-          <h1>Advanced</h1>
-        </div>
+        <a href='https://google.com'>
+          <div id='baza'>
+            <h1>Base</h1>
+          </div>
+        </a>
+        <a href='https://google.com'>
+          <div id='intermediar'>
+            <h1>Intermedate</h1>
+          </div>
+        </a>
+        <a href='https://google.com'>
+          <div id='avansat'>
+            <h1>Advanced</h1>
+          </div>
+        </a>
       </main>
-      <div id='contactFooter'>
-        <div id='contact'>
-          <p>
-            For more details don't be afraid to help yourself by contact us at
-            example@example.com e-mail and you will have an response in 72
-            hours.
-            <p></p> We also provide with information for private lessons. For
-            details send an email to example@example.com and we will answer in
-            the about same time
-          </p>
-        </div>
-        <footer>
-          <p>
-            Powered and developed by:
-            <a href='https://instagram.com/doteegoo'>ig: doteegoo </a>{" "}
-            <a href='https://github.com/dotegoo'> github: dotegoo </a>
-          </p>
-        </footer>
-      </div>
+      <footer>
+        <p>
+          Powered and developed by:
+          <a href='https://instagram.com/doteegoo'>ig: doteegoo </a>{" "}
+          <a href='https://github.com/dotegoo'> github: dotegoo </a>
+        </p>
+      </footer>
     </>
   );
 }
