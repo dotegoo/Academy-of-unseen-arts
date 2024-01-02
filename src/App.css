@@ -111,7 +111,9 @@ footer p {
   justify-content: space-around;
   align-items: center;
 }
-
+a {
+  text-decoration: none;
+}
 #baza,
 #avansat,
 #intermediar {
@@ -131,9 +133,63 @@ footer p {
   transform: scale(1.2);
   color: #fff;
 }
-#baza:hover::after,
-#avansat:hover::after,
-#intermediar:hover::after {
-  transform: scale(1);
-  transition: 5s;
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 40px;
+    padding-top: 20%;
+  }
+
+  nav ul li {
+    font-size: 24px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  article p {
+    font-size: 20px;
+    width: 80vw;
+  }
+  #baza,
+  #avansat,
+  #intermediar {
+    height: 16rem;
+    width: 12rem;
+  }
+  #baza h1,
+  #avansat h1,
+  #intermediar h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 30px;
+    padding-top: 16%;
+  }
+
+  nav ul li {
+    font-size: 18px;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+
+  article p {
+    font-size: 16px;
+    width: 90vw;
+  }
+  #baza,
+  #avansat,
+  #intermediar {
+    height: 8rem;
+    width: 6rem;
+  }
+  #baza h1,
+  #avansat h1,
+  #intermediar h1 {
+    font-size: 16px;
+  }
 }
