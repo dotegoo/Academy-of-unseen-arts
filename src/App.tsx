@@ -21,7 +21,7 @@ function App() {
         </p>
         <p>
           We have the best teachers in the world and they will teach you the art
-          of witchcraft in three levels: Base, Intermedate and Advanced.
+          of witchcraft in this course
         </p>
         <p>
           Don't miss this chance! This is YOUR ONLY chance of being succesful in
@@ -29,24 +29,19 @@ function App() {
         </p>
       </article>
       <main id='main'>
-        <a href='https://google.com'>
-          <div id='baza'>
-            <h1>Base</h1>
+        <a href='https://google.com' target='_blanc'>
+          <div id='patreon'>
+            <h1>Patreon</h1>
           </div>
         </a>
-        <a href='https://google.com'>
-          <div id='intermediar'>
-            <h1>Intermedate</h1>
-          </div>
-        </a>
-        <a href='https://google.com'>
-          <div id='avansat'>
-            <h1>Advanced</h1>
-          </div>
-        </a>
+        <p>Join Now my PATREON program for learning the unseen arts</p>
       </main>
       <footer>
         <p>
+          By all means the things thought in this course are not evil and should
+          be used in ethical ways
+        </p>
+        <p className='dev-promo'>
           Powered and developed by:
           <a href='https://instagram.com/doteegoo'>ig: doteegoo </a>{" "}
           <a href='https://github.com/dotegoo'> github: dotegoo </a>

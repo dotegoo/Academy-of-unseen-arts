@@ -28,7 +28,7 @@ header h1 {
   text-align: center;
 }
 main {
-  height: 90vh;
+  height: 84vh;
   background: url(/public/backgrounds/bg-4.jpeg) #0000007a;
   background-position: center;
   background-size: cover;
@@ -46,15 +46,18 @@ main div h1 {
   flex-direction: column;
 }
 footer {
-  height: 10vh;
+  height: 15vh;
   background: #000;
+}
+.dev-promo {
+  padding-bottom: 2vh;
 }
 footer p a {
   text-decoration: none;
 }
 nav {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -110,13 +113,12 @@ footer p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
 }
-#baza,
-#avansat,
-#intermediar {
+#patreon {
   background: #0000004a;
   height: 20rem;
   width: 16rem;
@@ -125,13 +127,16 @@ a {
   display: flex;
   color: #ffffff85;
 }
-#baza:hover,
-#avansat:hover,
-#intermediar:hover {
+#patreon:hover {
   background: #000;
   transition: 1s;
   transform: scale(1.2);
   color: #fff;
+}
+#main p {
+  font-size: 24px;
+  font-weight: 550;
+  letter-spacing: 2.5px;
 }
 
 /* Media Queries for responsiveness */
@@ -141,7 +146,9 @@ a {
     font-size: 40px;
     padding-top: 20%;
   }
-
+  nav {
+    height: 5vh;
+  }
   nav ul li {
     font-size: 24px;
     padding-left: 1vw;
@@ -152,15 +159,11 @@ a {
     font-size: 20px;
     width: 80vw;
   }
-  #baza,
-  #avansat,
-  #intermediar {
+  #patreon {
     height: 16rem;
     width: 12rem;
   }
-  #baza h1,
-  #avansat h1,
-  #intermediar h1 {
+  #patreon h1 {
     font-size: 26px;
   }
 }
@@ -181,15 +184,11 @@ a {
     font-size: 16px;
     width: 90vw;
   }
-  #baza,
-  #avansat,
-  #intermediar {
+  #patreon {
     height: 8rem;
     width: 6rem;
   }
-  #baza h1,
-  #avansat h1,
-  #intermediar h1 {
+  #patreon h1 {
     font-size: 16px;
   }
 }
